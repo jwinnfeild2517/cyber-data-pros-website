@@ -1,0 +1,25 @@
+.feedback-item {
+  margin-right: 20px;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+}
+
+.feedback-text {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.feedback-client-name {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.feedback-client-title {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+}

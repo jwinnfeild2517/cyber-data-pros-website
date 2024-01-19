@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* background-color: #0f1420; */
+}
+
+.carousel-header {
+  color: #f6bd2b;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.carousel-subheader {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  max-width: 300px;
+  color: white;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.carousel {
+  max-width: 350px;
+}
+
+.carousel-next-button {
+}
+
+.carousel-prev-button {
+  transform: rotate(180deg);
+}
+
+.slick-track {
+  display: flex;
+}

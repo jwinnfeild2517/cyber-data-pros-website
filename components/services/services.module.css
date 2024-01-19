@@ -1,0 +1,148 @@
+.services-container {
+  background-color: #001a58;
+  width: 100%;
+  height: auto;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  border-top: 5px solid #b58500;
+  /* clip-path: polygon(50% 0%, 100% 0, 100% 100%, 47% 96%, 0 100%, 0 0); */
+}
+
+.popular-services {
+  color: #f6bd2b;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-family: 'Assistant', sans-serif;
+}
+
+.help-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 12px;
+  color: #b58500;
+}
+
+.sub-heading {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.learn-text {
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #b58500;
+  position: absolute;
+  bottom: -12px;
+  right: -2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  padding: 25px;
+  box-shadow: 0 10px 50px -2px rgba(0, 0, 0, 0.14);
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  color: white;
+
+  border: 2px solid white;
+  border-radius: 10px;
+  flex: 1 50%;
+  /* flex-grow: 1; */
+}
+
+.service-card:hover {
+  transform: scale(1.03);
+}
+
+.service-title {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.service-description {
+  font-size: 16px;
+  line-height: 1.8;
+  --max-lines: 5;
+  overflow: hidden;
+  /* display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-lines); */
+}
+
+.card-image {
+  margin-bottom: 10px;
+}
+
+.image {
+  position: absolute;
+  top: 30%;
+  left: -3%;
+  transform: rotate(45deg);
+}
+
+.image-2 {
+  top: 50px;
+  right: 0%;
+  position: absolute;
+  /* transform: rotate(90deg); */
+}
+
+.image-3 {
+  bottom: -50px;
+  right: 0;
+  position: absolute;
+}
+
+/* tablet */
+
+@media (min-width: 700px) {
+  .service-card {
+    flex: 1 33%;
+  }
+}
+
+@media (min-width: 880px) {
+  .service-card {
+    flex: 1 33%;
+  }
+}
+
+/* desktop */
+
+@media (min-width: 1125px) {
+  .services-container {
+    padding: 100px 10%;
+  }
+}
