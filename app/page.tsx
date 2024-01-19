@@ -1,28 +1,43 @@
-import styles from './page.module.css'
-import Jumbotron from '@/components/jumbo/Jumbotron'
-import FaqContainer from '@/components/faq/FaqContainer'
 import dynamic from 'next/dynamic'
-import PageWrapper from '@/components/page/PageWrapper'
-import Services from '@/components/services/Services'
+import PageWrapper from '@/components/PageWrapper'
 
-const FeedbackCarousel = dynamic(
-  () => import('@/components/feedback/FeedbackCarousel'),
-)
-const AboutSection = dynamic(() => import('@/components/about/AboutSection'))
+// const FeedbackCarousel = dynamic(
+//   () => import('@/components/dashboard/FeedbackCarousel'),
+//   { ssr: false },
+// )
+// const AboutSection = dynamic(
+//   () => import('@/components/dashboard/AboutSection'),
+//   {
+//     ssr: false,
+//   },
+// )
+// const ComplianceCarorusel = dynamic(
+//   () => import('@/components/dashboard/ComplianceCarorusel'),
+//   { ssr: false },
+// )
+// const ServiceListDashBoard = dynamic(
+//   () => import('@/components/dashboard/ServiceListDashBoard'),
+//   { ssr: true },
+// )
 
-const ComplianceCarorusel = dynamic(
-  () => import('@/components/compliance/ComplianceCarorusel'),
-)
+// const FaqContainer = dynamic(
+//   () => import('@/components/dashboard/FaqContainer'),
+//   { ssr: false },
+// )
+
+const JumbotronContainer = dynamic(() => import('@/components/Jumbotron'), {
+  ssr: true,
+})
 
 export default function Home() {
   return (
     <PageWrapper>
-      <Jumbotron />
-      <Services />
+      <JumbotronContainer />
+      {/* <ServiceListDashBoard />
       <ComplianceCarorusel />
       <AboutSection />
       <FeedbackCarousel />
-      <FaqContainer />
+      <FaqContainer /> */}
     </PageWrapper>
   )
 }

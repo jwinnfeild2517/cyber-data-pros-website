@@ -5,7 +5,7 @@
   gap: 30px;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url('../../public//faq-backgroundpage.svg');
+  background-image: url('../public//faq-backgroundpage.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

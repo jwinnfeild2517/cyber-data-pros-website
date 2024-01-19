@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import styles from './footer.module.css'
+import styles from '../../css/footer.module.css'
 import Image from 'next/image'
 import { servicesData, ServicesType } from '@/data/serviceLinks'
 import Link from 'next/link'
@@ -29,14 +29,14 @@ const ServiceLinksCollection = ({
         {serviceTitle}
       </Link>
       <ul className={styles['list']}>
-        {serviceItemsList.map((item) => {
+        {/* {serviceItemsList.map((item) => {
           const { title } = servicesData[serviceTitle][item]
           return (
             <li key={item} className={styles['list-item']}>
               <Link href={`/service/${serviceTitle}/${title}`}>{title}</Link>
             </li>
           )
-        })}
+        })} */}
       </ul>
     </div>
   )

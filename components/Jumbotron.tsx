@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './jumbo.module.css'
+import styles from '@/css/jumbo.module.css'
 import Image from 'next/image'
 
 const Jumbotron = () => {

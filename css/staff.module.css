@@ -4,7 +4,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-image: url('../../public//blogs-page-background.svg');
+  background-image: url('../public//blogs-page-background.svg');
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-size: cover;

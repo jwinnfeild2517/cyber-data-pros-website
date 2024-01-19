@@ -1,4 +1,4 @@
-import db from '@/utils/db'
+import db from '@/lib/prisma'
 import { Blog } from '@prisma/client'
 import { log } from 'console'
 import { env } from 'process'

@@ -1,4 +1,4 @@
-import PageWrapper from '@/components/page/PageWrapper'
+import PageWrapper from '@/components/wrappers/PageWrapper'
 import Image from 'next/image'
 import React from 'react'
 

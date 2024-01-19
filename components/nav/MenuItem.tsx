@@ -13,8 +13,6 @@ const MenuItem = ({
   const showDropDown = menuArray[menuItem].length > 0
   const isCurrentDropDown = expandedMenuitem === menuItem
 
-  console.log(menuItem)
-
   return (
     <ul
       style={{

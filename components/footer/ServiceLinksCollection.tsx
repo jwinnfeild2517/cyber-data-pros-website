@@ -19,8 +19,6 @@ const ServiceLinksCollection = ({
       <span className={styles['list-header']}>{serviceTitle}</span>
       <ul className={styles['listWrapper']}>
         {serviceItemsList.map((item) => {
-          console.log(item)
-
           return (
             <li key={item} className={styles['list-item']}>
               <a href="/">{servicesData[serviceTitle][item].title}</a>

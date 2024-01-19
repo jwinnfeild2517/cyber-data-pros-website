@@ -54,7 +54,7 @@
 }
 
 .slogan2 {
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
   margin-bottom: 30px;
   font-family: 'Poppins', sans-serif;
@@ -120,11 +120,11 @@
   .jumbotron {
     padding: 0px 10%;
     justify-content: flex-start;
-    /* height: 75vh; */
+    height: 75vh;
   }
 
   .textContainer {
     position: relative;
-    margin-top: 50px;
+    margin-top: 176px;
   }
 }

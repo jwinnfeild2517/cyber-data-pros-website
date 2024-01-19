@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
-import Nav from '../nav/Nav'
-import Footer from '../footer/Footer'
+import Nav from './nav/Nav'
+import Footer from './footer/Footer'
 import useWindowDimensions from '@/utils/useWindowDemensions'
 
 const PageWrapper = ({
